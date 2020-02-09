@@ -19,8 +19,8 @@ eigen magazine relevant zijn. Voeg er ook meer toe dan de 5 die erin staan.
 
 ## Opdracht 2 (zonder AJAX)
 - Schrijf je eerste HTML/CSS voor het foodmagazine. Gebruik hiervoor het
-[design]() wat in deze map zit bijgevoegd. Je hoeft in deze fase enkel het 
-overzicht met gerechten op te zetten (nog zonder detailweergave!)
+[design](./design_voorbeeld.png) wat in deze map zit bijgevoegd. Je hoeft in deze
+fase enkel het overzicht met gerechten op te zetten (nog zonder detailweergave!)
 - **Belangrijk**: Gebruik voor Opdracht 2/3/4 eigen teksten en plaatjes
 aangezien we pas in Opdracht 5 de koppeling naar de JSON uit week 1 gaan maken.
 - Test je output in de browser door zowel desktop als mobile te bekijken.
