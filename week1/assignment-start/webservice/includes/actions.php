@@ -8,31 +8,26 @@ function getDishes()
         [
             "id" => 1,
             "name" => "Pizza",
-            "recipe" => "Put it in the oven and go!",
             "kitchen" => "Italian",
         ],
         [
             "id" => 2,
             "name" => "Kale",
-            "recipe" => "You can make this delicious Dutch meal by ...",
             "kitchen" => "Dutch",
         ],
         [
             "id" => 3,
             "name" => "Lasagna",
-            "recipe" => "Very nice when your grandma makes this",
             "kitchen" => "Italian",
         ],
         [
             "id" => 4,
             "name" => "Kebab",
-            "recipe" => "Everytime in the city after midnight",
             "kitchen" => "Turkish",
         ],
         [
             "id" => 5,
             "name" => "Paella",
-            "recipe" => "Specialty when on holiday in Spain",
             "kitchen" => "Spanish",
         ]
     ];
@@ -42,14 +37,29 @@ function getDishes()
  * @param $id
  * @return mixed
  */
-function getTagsByDishId($id)
+function getDishDetails($id)
 {
     $tags = [
-        1 => ['cheese', 'oven'],
-        2 => ['unox', 'healthy', 'stamppot', 'boerenkool'],
-        3 => ['omnomnom'],
-        4 => ['kapsalon', 'tasty', 'meat'],
-        5 => ['fish'],
+        1 => [
+            "recipe" => "Put it in the oven and go!",
+            "tags" => ['cheese', 'oven']
+        ],
+        2 => [
+            "recipe" => "You can make this delicious Dutch meal by ...",
+            "tags" => ['unox', 'healthy', 'stamppot', 'boerenkool']
+        ],
+        3 => [
+            "recipe" => "Very nice when your grandma prepares this meal",
+            "tags" => ['omnomnom']
+        ],
+        4 => [
+            "recipe" => "Everytime in the city after midnight",
+            "tags" => ['kapsalon', 'tasty', 'meat']
+        ],
+        5 => [
+            "recipe" => "Specialty when on holiday in Spain",
+            "tags" => ['fish']
+        ],
     ];
 
     return $tags[$id];
