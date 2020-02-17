@@ -1,0 +1,56 @@
+[
+    {
+        "naam": "animal crossing",
+        "release": "20 maart 2020",
+        "prijs": 60,
+        "platform": "switch",
+        "released": false,
+        "score": [
+            {
+                "magazine": "game informer",
+                "score": 9.5
+            },
+            {
+                "magazine": "game informer",
+                "score": 9.5
+            },
+            {
+                "magazine": "game informer",
+                "score": 9.5
+            }
+        ],
+        "characters": [
+            "nook",
+            "isabelle",
+            "apollo",
+            "resetti"
+        ]
+    },
+    {
+        "naam": "harvest moon",
+        "release": "20 maart 2020",
+        "prijs": 60,
+        "platform": "switch",
+        "released": false,
+        "score": [
+            {
+                "magazine": "game informer",
+                "score": 6.5
+            },
+            {
+                "magazine": "game informer",
+                "score": 5
+            },
+            {
+                "magazine": "game informer",
+                "score": 4.5
+            }
+        ],
+        "characters": [
+            "nook",
+            "isabelle",
+            "apollo",
+            "resetti"
+        ]
+    }
+]
