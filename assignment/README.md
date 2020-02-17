@@ -9,8 +9,8 @@ eigen gerechten binnen een dynamische frontend. Deze opdracht is verdeeld in
 de volgende deelopdrachten om dit stap voor stap te ontwikkelen.
 
 ## Opdracht 1
-- Gebruik phpStorm of [Visual Studio Code](https://code.visualstudio.com) voor het aanmaken van een nieuw project waarin je deze
-opdracht maakt
+- Gebruik phpStorm of [Visual Studio Code](https://code.visualstudio.com) voor het
+aanmaken van een nieuw project waarin je deze opdracht maakt
 - Zorg ervoor dat je de [initiële code](../week1/assignment-start) lokaal op
 je XAMPP omgeving werkend instelt
 - Pas de gerechten en tags aan om eigen gerechten te bevatten die voor jouw
