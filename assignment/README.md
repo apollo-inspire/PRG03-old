@@ -9,8 +9,8 @@ eigen gerechten binnen een dynamische frontend. Deze opdracht is verdeeld in
 de volgende deelopdrachten om dit stap voor stap te ontwikkelen.
 
 ## Opdracht 1
-- Gebruik phpStorm of [Visual Studio Code](https://code.visualstudio.com) voor het aanmaken van een nieuw project waarin je deze
-opdracht maakt
+- Gebruik phpStorm of [Visual Studio Code](https://code.visualstudio.com) voor het
+aanmaken van een nieuw project waarin je deze opdracht maakt
 - Zorg ervoor dat je de [initiële code](../week1/assignment-start) lokaal op
 je XAMPP omgeving werkend instelt
 - Pas de gerechten en tags aan om eigen gerechten te bevatten die voor jouw
@@ -35,9 +35,10 @@ andere aangeklikte gerecht
 - Maak de HTML/CSS voor de detailweergave van je gerecht
 
 ## Opdracht 4 (zonder AJAX)
-- Ontwikkel de functionaliteit om de opdracht te koppelen aan je local storage.
-Voeg in het overzicht per gerecht een knop toe om het aan te favorieten toe
-te voegen
+- Ontwikkel de functionaliteit om gerechten als favoriet toe te voegen. Dit doe je
+door de favorieten in je localstorage op te slaan. Voeg in het overzicht per gerecht
+een "voeg toe als favoriet knop" toe om het aan deze functionaliteit via een click
+event werkend te maken.
 - Zorg met CSS dat de favoriet een andere kleur heeft. Deze kleur met ook na
 herladen van de pagina blijven staan door je local storage te raadplegen
 - Zorg ervoor dat de gerechten die favoriet zijn een knop krijgen om ze weer
