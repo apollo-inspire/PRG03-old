@@ -5,7 +5,7 @@ let $ageField = null;
 
 function init()
 {
-    if (!'localStorage' in window) {
+    if (typeof window.localStorage === "undefined") {
         console.error('Local storage is not available in your browser');
         return;
     }
