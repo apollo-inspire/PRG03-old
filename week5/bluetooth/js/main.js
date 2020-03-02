@@ -9,7 +9,7 @@ function readBatteryLevel()
 {
     let $target = document.getElementById('target');
 
-    if (!('bluetooth' in navigator)) {
+    if (typeof navigator.bluetooth === "undefined") {
         $target.innerText = 'Bluetooth API not supported.';
         return;
     }

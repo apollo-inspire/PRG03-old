@@ -7,14 +7,16 @@ function init()
     $target = document.getElementById('target');
     $button = document.getElementById('button');
 
-    if ('geolocation' in navigator) {
-        $button.addEventListener('click', function () {
-            navigator.geolocation.getCurrentPosition(showCurrentLocation);
-            navigator.geolocation.watchPosition(showCurrentLocation);
-        });
-    } else {
+    if (typeof navigator.geolocation === "undefined") {
         $target.innerText = 'Geolocation API not supported.';
+        return;
     }
+    console.log("????");
+
+    $button.addEventListener('click', function () {
+        navigator.geolocation.getCurrentPosition(showCurrentLocation);
+        navigator.geolocation.watchPosition(showCurrentLocation);
+    });
 }
 
 function showCurrentLocation(location)
