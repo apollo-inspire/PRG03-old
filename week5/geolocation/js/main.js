@@ -11,7 +11,6 @@ function init()
         $target.innerText = 'Geolocation API not supported.';
         return;
     }
-    console.log("????");
 
     $button.addEventListener('click', function () {
         navigator.geolocation.getCurrentPosition(showCurrentLocation);
