@@ -24,7 +24,7 @@ eigen magazine relevant zijn. Voeg er ook meer toe dan de 5 die erin staan.
 fase enkel het overzicht met gerechten op te zetten (nog zonder detailweergave!)
 - **Belangrijk**: Gebruik voor Opdracht 2/3/4 eigen teksten en plaatjes
 aangezien we pas in Opdracht 5 de koppeling naar de JSON uit week 1 gaan maken.
-- Test je output in de browser door zowel desktop als [design](./design_voorbeeld_mobile.png)
+- Test je output in de browser door zowel desktop als [mobile](./design_voorbeeld_mobile.png)
 te bekijken. Gebruik hiervoor de Google Chrome (of Firefox) developer tools
 
 ## Opdracht 3 (zonder AJAX)
