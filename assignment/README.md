@@ -24,7 +24,7 @@ eigen magazine relevant zijn. Voeg er ook meer toe dan de 5 die erin staan.
 fase enkel het overzicht met gerechten op te zetten (nog zonder detailweergave!)
 - **Belangrijk**: Gebruik voor Opdracht 2/3/4 eigen teksten en plaatjes
 aangezien we pas in Opdracht 5 de koppeling naar de JSON uit week 1 gaan maken.
-- Test je output in de browser door zowel desktop als [design](./design_voorbeeld_mobile.png)
+- Test je output in de browser door zowel desktop als [mobile](./design_voorbeeld_mobile.png)
 te bekijken. Gebruik hiervoor de Google Chrome (of Firefox) developer tools
 
 ## Opdracht 3 (zonder AJAX)
@@ -35,9 +35,10 @@ andere aangeklikte gerecht
 - Maak de HTML/CSS voor de detailweergave van je gerecht
 
 ## Opdracht 4 (zonder AJAX)
-- Ontwikkel de functionaliteit om de opdracht te koppelen aan je local storage.
-Voeg in het overzicht per gerecht een knop toe om het aan te favorieten toe
-te voegen
+- Ontwikkel de functionaliteit om gerechten als favoriet toe te voegen. Dit doe je
+door de favorieten in je localstorage op te slaan. Voeg in het overzicht per gerecht
+een "voeg toe als favoriet knop" toe om het aan deze functionaliteit via een click
+event werkend te maken.
 - Zorg met CSS dat de favoriet een andere kleur heeft. Deze kleur met ook na
 herladen van de pagina blijven staan door je local storage te raadplegen
 - Zorg ervoor dat de gerechten die favoriet zijn een knop krijgen om ze weer
