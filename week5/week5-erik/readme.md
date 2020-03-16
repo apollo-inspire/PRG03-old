@@ -11,9 +11,14 @@ Kopieer de HTML en JS files uit deze map naar je eigen project.
 - Image veranderen na klik
 - Random Array gebruiken
 
-## CreateElement en LocalStorage
+## CreateElement, Arrays en LocalStorage
 
 [todolist.html](./todolist.html) en [todolist.js](./todolist.js)
  
 - Todolist bouwen met createElement en Array
-- TodoList Array opslaan als JSON
+- TodoList Array opslaan als JSON met localStorage
+
+## Links
+
+- [MDN LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+
