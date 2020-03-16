@@ -4,6 +4,8 @@ const field = document.querySelector("#field")
 const btn = document.querySelector("#addtodo")
 const list = document.querySelector("#list")
 
+let items = ["Kat eten geven", "WC papier kopen", "Hamsteren"]
+
 function init(){
     btn.addEventListener("click", addTodo)
 }
