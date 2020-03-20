@@ -23,7 +23,7 @@
         "offline_multiplayer": true,
         "online_multiplayer": true
       },
-      "price": {
+        "price": {
         "currency": "euro",
         "value": 60
       },
